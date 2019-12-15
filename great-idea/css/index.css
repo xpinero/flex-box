@@ -90,9 +90,18 @@ header {
 	margin: 2em 0;
 }
 
+.header-index {
+	display: flex;
+	justify-content: space-around;
+}
+
+header img {
+	padding-bottom: 2em;
+}
+
 .big-box {
 	margin-top: 30px;
-	height: 900px;
+	height: 650px;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -103,7 +112,7 @@ header {
 	border: solid black 1px;
 	background-color: lightgray;
 	width: 44%;
-	height: 210px;
+	height: 190px;
 	margin: 0 30px;
 }
 
@@ -115,25 +124,15 @@ header {
 	padding: 0 10px 10px 10px;
 }
 
+.start-button {
+	height: 4em;
+	width: 20em;
+	margin: 2em 0 0 5em;
+}
 .boxes button {
 	margin: 10px;
 	padding: 10px 40px;
 	border-radius: 5px;
-}
-	
-
-.title-1 {
-	display: inline-block;
-	text-align: center;
-	width: 300px;
-	margin: 50px 20px;
-}
-
-.image-1 {
-	display: inline-block;
-	width: 250px;
-	margin-left: 150px;
-	margin-top: 50px;
 }
 
 h1 {
@@ -145,26 +144,50 @@ h2 {
 	font-size: 2em;
 }
 
+.top-section {
+	display: flex;
+}
+
 .top-class {
-	display: inline-block;
-	width: 25em;
+	width: 54%;
 	margin: 2em 1em;
 }
 
+.center-pic {
+	width: 100%;
+}
+
+.middle-img {
+	width: 99%;
+}
+
+.bottom-section {
+	display: flex;
+}
+
 .bottom-class {
-	display: inline-block;
-	width: 16em;
+	width: 33%;
 	margin: 1em 1em;
 }
 
 .contact {
 	text-align: left;
 	width: 15em;
+	margin-top: 2em;
 }
 
 .facts {
 	display: flex;
-	justify-content: space-between;
+	padding: 1em 1em 0 1em;
+}
+
+.facts p {
+	padding-right: 29em;
+}
+
+.list ul {
+	list-style-type: circle;
+	margin: 1em;
 }
 
 .copyright {
